@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-    margin: opx;
+    margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,9 +15,9 @@ img{
 
 }
 
-a{
+a#linkdin{
     display: block;
-    background-color: darkred;
+    background-color: rgb(43, 93, 228);
     color: white;
     padding: 20px;
     text-align: center;
@@ -26,6 +26,36 @@ a{
 
 }
 
-a:hover{
-    background-color: red;
+a#linkdin:hover{
+    background-color: rgba(0, 0, 255, 0.514);
+}
+
+a#git{
+    display: block;
+    background-color: rgb(15, 31, 73);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+a#git:hover{
+    background-color: rgba(10, 10, 44, 0.514);
+}
+
+a#curriculo{
+    display: block;
+    background-color: rgb(74, 108, 196);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+a#curriculo:hover{
+    background-color: rgb(58, 100, 216);
 }
